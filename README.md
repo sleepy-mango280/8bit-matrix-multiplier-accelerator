@@ -1,1 +1,3 @@
 # 8bit-matrix-multiplier-accelerator
+
+The hardware accelerator uses 8-bit integers to process matrix multiplication, which is a fundamental mathematical process in artificial intelligence, computer graphics and scientific calculations. It performs multiplication and addition operations in a parallel manner. The design includes four 8-bit multipliers that function simultaneously - those components operate twice during two distinct stages of calculation. Multiplexers choose specific elements from the input matrices for each step. There are registers that hold the initial numerical products. 16-bit adders then join those stored values with the results from the second calculation stage. To finish the process, the hardware generates a 2×2 grid of resultant numbers.
